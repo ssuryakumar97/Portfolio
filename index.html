@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Favicon link-->
+    <link rel="icon" href="./images/favicon logo.jpg">
+    
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--custom file link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <!-- Navbar section -->
+    <header class="header_wrapper header-scrolled">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/Portfolio-logo.png" alt="Logo" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-stream"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav menu-navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#project">Projects</a>
+                  <a class="nav-link" href="#skills">Skills</a>
+                  <a class="nav-link" href="#experience">Experience</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Banner section-->
+    <section class="banner_wrapper" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">I am Surya Kumar</h1>
+                    <h5 class="text-uppercase">Full stack web developer</h5>
+                    <div class="mt-5">
+                        <a href="#footer" class="main-btn primary-btn">Contact me</a>
+                        <a href="https://drive.google.com/file/d/180HR-oAZLDSUnba4D1EgiOl03KLP-0Df/view?usp=sharing" target="_blank" class="main-btn secondary-btn ms-4">Get CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="./images/background image2.svg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About section -->
+    <section class="about_wrapper" id="about">
+        <div class="container reveal fade-bottom">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="./images/background image.svg" alt="about-us" class="img-fluid">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3>let's <br>Introduce about<br> myself</h3>
+                    <p>Hello, I'm Surya Kumar S, an organized and hardworking employee looking for a job as web developer.</p>
+                    <p>Looking to take advantage of my skills in HTML, CSS, javascript and frameworks like react js, node js, bootstrap. Im also looking forward to learn more relevant to my skills in detail in terms of organisation view.</p>
+                    <a href="" class="main-btn primary-btn mt-4">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Project Section-->
+
+    <section class="about_wrapper" id="project"> 
+        <div class="container reveal fade-bottom" >
+            <div class="row align-items-center ">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="./images/Project.png" alt="project" class="img-fluid" >
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3>Project</h3>
+                    <p>This project is about blog application, were user can login and create content based on his favourite categories.</p>
+                    <p>This project were built with the reactjs and material UI library for frontend, Expressjs for backend and mongoDB for database</p>
+                    <a href="https://papaya-tiramisu-fa9ec4.netlify.app/api/login" target="_blank" class="main-btn primary-btn mt-4">Link to the page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--skills section-->
+    <section class="skills_wrapper" id="skills">
+        <div class="container reveal fade-bottom">
+            <h3 class="text-center">Skills</h3>
+            <div class="row d-flex justify-content-center pt-5 align-items-center text-center skills">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/html logo.png" alt="HTML5" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/css logo.jpg" alt="CSS" class="img-fluid" width="150" >
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 pt-4 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/Bootstrap_logo.svg.png" alt="Bootstrap" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/javascript-logo.png" alt="javascript" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/React-icon.svg.png" alt="React" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/Redux.png" alt="Redux" class="img-fluid" width="150" >
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 pt-4 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/MaterialUI.png" alt="MaterialUI" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/nodejs.png" alt="Nodejs" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/MySQL.png" alt="MySQL" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/MongoDB-Logo.jpg" alt="MongoDB" class="img-fluid" width="150" >
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 pt-4 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/php logo.png" alt="php" class="img-fluid" width="150">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0 reveal fade-left">
+                    <div class="single-logo-item">
+                        <img src="./images/skills/redis logo.png" alt="Redis" class="img-fluid" width="150">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Experience-->
+    <section class="experience_wrapper" id="experience">
+        <div class="container reveal fade-bottom">
+            <h3 class="text-center">Work Experience</h3>
+            <div class="row">
+                <div class="col-md-6 border-md-end border-2 border-secondary" style="min-height: 300px;">
+                    <div class="row justify-content-md-end justify-content-start justify-content-sm-start m-1" style="min-height: 33.33%;">
+                        <div class="col-md-6 border border-md-secondary align-self-center reveal fade-rotate">
+                            <div>Graduate Apprentice Trainee (Process planning) – Bosch Electrical
+                                Drives India Pvt Ltd</div>
+                            <div>May 2018 - May 2019.</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-end d-none d-sm-none d-md-block" style="min-height: 33.33%;">
+                        
+                    </div>
+                    <div class="col-md-6 border border-md-secondary m-1 px-2 align-self-start reveal fade-rotate-y d-md-none">
+                        <div>Junior Engineer (Process planning, production planning (Resident Engineer)) – Bosch Electrical
+                                Drives India Pvt Ltd</div>
+                        <div>Aug 2020 - Nov 2021.</div>
+                    </div>
+                   
+                    <div class="row justify-content-md-end justify-content-start justify-content-sm-start m-1" style="min-height: 33.33%">
+                        <div class="col-12 col-md-6 border border-md-secondary align-self-center reveal fade-rotate">
+                            <div>Engineer (Manufacturing Engineer) – Lucas TVS India Pvt Ltd.</div>
+                            <div>Nov 2021 - Jul 2022.</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 border-start border-2 border-secondary d-none d-sm-none d-md-block" style="min-height: 300px;">
+                    <div class="row justify-content-end" style="min-height: 33.33%">
+                        
+                    </div>
+                    <div class="row justify-content-start " style="min-height: 33.33%">
+                        <div class="col-md-6 border border-secondary ms-3 align-self-center reveal fade-rotate-y">
+                            <div>Junior Engineer (Process planning, production planning (Resident Engineer)) – Bosch Electrical
+                                Drives India Pvt Ltd</div>
+                            <div>Aug 2020 - Nov 2021.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me-->
+    <footer >
+        <div class="footer_wrapper bg-secondary text-center" id="footer">
+            <h4>Contact Me</h4>
+            <i class="fas fa-phone-square-alt text-white pt-3">+91 9677284571</i>
+            <i class="far fa-envelope text-white pt-3"> ssuryakumar97@gmail.com</i>
+            <i class="fab fa-linkedin text-white p-3"><a href="https://www.linkedin.com/in/surya-kumar-s-44b408175?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BmfvQFazDTqabTgolG2gLDQ%3D%3D" target="_blank"> Linkedin</a></i>
+        </div>
+    </footer>
+
+    
+
+
+    <!--Link to js-->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!--Bootstrap link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
