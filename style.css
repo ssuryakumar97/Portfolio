@@ -54,6 +54,12 @@ section{
     padding: 5rem 0;
 }
 
+.btn-component{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .main-btn{
     display: inline-block;
     padding-left: 1.25rem;
@@ -72,12 +78,43 @@ section{
     --webkit-transition: all .3s ease-in-out;
 }
 
+.link-btn{
+    display: inline-block;
+    background-image: linear-gradient(to right, #ff0084 , #f30418 );
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 / 30%);
+    border: double 0.125rem transparent;
+    transition: all 0.5s ease-in-out;
+    --webkit-transition: all .5s ease-in-out;
+}
+
+ 
+
 .primary-btn{
     background-image: var(--gradient);
     color: var(--text-white);
 }
 
+.primary-link-btn{
+    color: var(--text-white);
+}
+
 .primary-btn:hover{
+    border-color: var(--secondary-color);
+    background: var(--bg-white);
+    color: var(--secondary-text);
+    box-shadow: none;
+}
+.primary-link-btn:hover{
     border-color: var(--secondary-color);
     background: var(--bg-white);
     color: var(--secondary-text);
